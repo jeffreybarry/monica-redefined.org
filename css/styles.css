@@ -22,6 +22,31 @@ top:50%;
 list-style: none;
 }
 
+/* use specific selectors  */
+
+/* change default color of nav item and set shape */
+/* first consider
+color: red;
+width: 25px;
+border-bottom: 2px solid red;
+*/
+
+a.nav-link {
+  display: block;
+  border: 2px solid transparent; /* need to keep line straight */
+  border-bottom: 2px solid gray;
+  width: 25px;
+
+}
+
+/* changes active link color */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+  color: black;
+  background-color: transparent;
+  width: 50px;
+  border-bottom: 4px solid gray;
+}
+
 h1, h2, h3 {
 font-family: "Playfair Dispay", serif;
 margin-top: 0; /* removes top gap above section. what about container fluid? Why is that not working? */
