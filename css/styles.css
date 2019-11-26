@@ -6,8 +6,20 @@ body {
   padding: 0;
 }
 
-.wrapper {
+.floating-nav {
+border-radius:100px;
+z-index:999;
+padding-top:10px;
+padding-bottom:10px;
+right:0;
+position:fixed;
+display:inline-block;
+top:50%;
+-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);
+}
 
+.floating-menu {
+list-style: none;
 }
 
 h1, h2, h3 {
