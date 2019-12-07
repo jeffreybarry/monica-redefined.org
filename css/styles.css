@@ -10,7 +10,7 @@ body {
 }
 
 .jumbotron-fluid {
-  background-image: url("../images/monica-hair.svg");
+  background-image: url("");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -246,4 +246,14 @@ display: none;
 }
 #bill {
   display: none;
+}
+
+
+
+#svg {
+  margin: 10px;
+}
+
+#logo, #lines, #ByGreenSock, #DrawSVG, #Plugin {
+  visibility: hidden;
 }
