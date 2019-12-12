@@ -338,3 +338,7 @@ display: none;
   width: 25rem;
   margin-bottom: 5rem;
 }
+
+#lastline {
+  font-size: 3rem;
+}
