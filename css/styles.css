@@ -1,12 +1,20 @@
 body {
   position: relative;
-
-  font-family: "Roboto", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
   background-color: #fffbf6;
   color: #001023;
+}
+
+.tl-timeline {
+  background-color: #fffbf6 !important;
+}
+
+.tripptapesQuotes {
+  font-family: 'Special Elite', cursive;
+
 }
 
 .jumbotron-fluid {
@@ -17,7 +25,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: #edd4b2;
+  /* background-color: #edd4b2; */
 
 }
 
@@ -30,8 +38,8 @@ padding-bottom:10px;
 right:0;
 position:fixed;
 display:inline-block;
-top:50%;
--webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);
+top:10%;
+-webkit-transform:translateY(-10%);-ms-transform:translateY(-10%);transform:translateY(-10%);
 }
 
 .floating-menu {
@@ -69,39 +77,48 @@ margin-top: 0; /* removes top gap above section. what about container fluid? Why
 padding-top: 30px;
  }
 
-h1 {font-size:64px;
+h1 {font-size:5rem;
   font-weight: 500;
 }
- .main-title {
-   font-size: 64px;
+
+.main-title {
+  font-family: "Playfair Dispay", serif;
+  font-weight: 500;
+   font-size: 6.5rem;
  }
 
  .redtext {
    color: #e03616 !important;
  }
 
+
+
+
 .initial-overlay-text {
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
   font-size: 42px;
   color: #e03616;
+  position: absolute;
+  left:50%;
+  top:50%;
 }
 
-#starter-point1 {
+#startingPoint1, #startingPoint2, #startingPoint3, #startingPoint4, #startingPoint5, #startingPoint, .scrolldownArrow {
   /*when animation ends, count x seconds, then move animation out */
-  padding-top: 16rem;
+  visibility: hidden;
 
  }
 
- #starter-point6 {
-   font-family: "Playfair Dispay", serif;
-   font-size: 72px;
+ #startingPoint6 {
+   font-size: 3rem;
+   color: black;
   }
 
-
-
-section {
-
+.scrolldownArrow {
+  font-size: 2rem;
 }
+
+
 
 .quote-perspective {
   margin-top: 2rem;
@@ -254,6 +271,65 @@ display: none;
   margin: 10px;
 }
 
-#logo, #lines, #ByGreenSock, #DrawSVG, #Plugin {
+#logo, #lines, #ByGreenSock, #DrawSVG, #Plugin  {
   visibility: hidden;
+}
+
+.plugin-stroke {
+  visibility: hidden;
+}
+
+#Layer_1, #Layer_2 {
+  visibility: hidden;
+}
+
+.rapsongs {
+  background-image: url("../images/rapsongs-cassette.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.songTitles1 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.songTitles2 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:900;
+  font-size:1.25rem;
+  color: #1f2041;
+}
+
+.songTitles3 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:700;
+  font-size:1.1rem;
+  color: #3f1052;
+}
+.songTitles4 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:400;
+  font-size:.95rem;
+}
+.songTitles5 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:900;
+  font-size:1.25rem;
+}
+.songTitles6 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:700;
+  font-size:1.15rem;
+}
+
+.songTitles7 {
+  font-family: 'Playfair Display SC', serif;
+  font-weight:900;
+  font-style: italic;
+  font-size:1.25rem;
+  color: #e03616;
 }

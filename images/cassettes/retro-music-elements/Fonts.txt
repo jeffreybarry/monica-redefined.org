@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: HamburgerHeaven
+Author: Nick's Fonts
+Url: http://www.fontsquirrel.com/fonts/HamburgerHeaven
+
+Font: League Gothic
+Author: The League of Moveable Type
+Url: http://www.fontsquirrel.com/fonts/League-Gothic
+
+Font: Ubuntu
+Author: Dalton Maag Ltd
+Url: http://www.fontsquirrel.com/fonts/ubuntu

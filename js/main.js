@@ -1,15 +1,34 @@
 //we set visibility:hidden in the CSS to avoid an initial flash - make them visible now, but the from() tweens are going to essentially hide them anyway because their stroke position/length will be 0.
-gsap.set(".gray-line, .green-line, .green-line-thin, .plugin-stroke", {visibility:"visible"});
+//gsap.set(".plugin-stroke, .st1", {visibility:"visible"});
 
 var tl = gsap.timeline();
 
-//animate the plugin text first, drawing to 100%
-tl.from(".plugin-stroke", {duration: 4, drawSVG:0, ease:"power1.inOut"})
-  //now animate the logo strokes (note we use "102% as FireFox 34 miscalculates the length of a few strokes)
-  .fromTo(".gray-line, .green-line, .green-line-thin", {drawSVG:0}, {duration: 2, drawSVG:"102%"}, "-=1")
-  //fade in the real logo and the rest of the text
-  .to("#Plugin, #ByGreenSock, #logo", 1, {autoAlpha:1, ease:"none"})
-  //hide the logo strokes that are now obscured by the real logo (just to improve rendering performance)
-  .set("#lines", {visibility:"hidden"});
 
-  //--- SLIDER ---
+
+//animate the plugin text first, drawing to 100%
+//tl.from(".plugin-stroke, .st1", {duration: 8, drawSVG:0, ease:"power1.inOut"});
+  tl.set("#startingPoint1", {visibility: "visible"});
+  //tl.set("#startingPoint1", {display: "block"});
+  tl.from("#startingPoint1", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+  tl.to("#startingPoint1", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+//  tl.set("#startingPoint1", {display:"none"});
+  tl.set("#startingPoint2", {visibility: "visible"});
+  tl.from("#startingPoint2", {duration: 1.5, opacity:0, scale:0.3}, ">1");
+  tl.to("#startingPoint2", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+//  tl.set("#startingPoint2", {display:"none"});
+  tl.set("#startingPoint3", {visibility: "visible"});
+  tl.from("#startingPoint3", {duration: 1.5, opacity:0, scale:0.3}, ">1");
+  tl.to("#startingPoint3", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+//  tl.set("#startingPoint3", {display:"none"});
+  tl.set("#startingPoint4", {visibility: "visible"});
+  tl.from("#startingPoint4", {duration: 1.5, opacity:0, scale:0.3}, ">1");
+  tl.to("#startingPoint4", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+  //tl.set("#startingPoint4", {display:"none"});
+  tl.set("#startingPoint5", {visibility: "visible"});
+  tl.from("#startingPoint5", {duration: 1.5, opacity:0, scale:0.3}, ">1");
+  tl.to("#startingPoint5", {duration: 1.5, opacity:0, scale:0.3}, ">2");
+  tl.to("#silhouette", {duration:1.5, opacity:0}, ">1");
+  tl.set("#startingPoint6", {visibility: "visible"});
+  tl.from("#startingPoint6", {duration: 1.5, opacity:0, scale:0.3}, ">1");
+  tl.set(".scrolldownArrow", {visibility: "visible"});
+  tl.from(".scrolldownArrow", {duration: 1.5, opacity:0}, ">1");
