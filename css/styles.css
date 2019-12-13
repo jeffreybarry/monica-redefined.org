@@ -357,6 +357,9 @@ display: none;
 
 #lastline {
   font-size: 3rem;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  padding-top: 4rem;
 }
 
 a.linkNoStyle {
