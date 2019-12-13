@@ -357,3 +357,8 @@ a.linkNoStyle {
   color: inherit;
   text-decoration: none;
 }
+
+audio {
+  width: 100%;
+  max-width: 500px;
+}
