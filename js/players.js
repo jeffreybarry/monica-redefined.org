@@ -56,17 +56,17 @@ $("#newt-head").hover(function() {
 }
 )
 
-$("#boblivingston-head").hover(function() {
-  $("#boblivingston").css("display", "block");
+$("#lindseygraham-head").hover(function() {
+  $("#lindseygraham").css("display", "block");
 }, function(){
-  $("#boblivingston").css("display", "none");
+  $("#lindseygraham").css("display", "none");
 }
 )
 
-$("#maxinewaters-head").hover(function() {
-  $("#maxinewaters").css("display", "block");
+$("#brettkavanaugh-head").hover(function() {
+  $("#brettkavanaugh").css("display", "block");
 }, function(){
-  $("#maxinewaters").css("display", "none");
+  $("#brettkavanaugh").css("display", "none");
 }
 )
 
