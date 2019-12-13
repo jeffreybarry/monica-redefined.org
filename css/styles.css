@@ -113,6 +113,12 @@ h1 {font-size:5rem;
   font-weight: 500;
 }
 
+h3 {
+  display: inline-block;
+  width: auto;
+  border-bottom: 1px solid #e03616;
+}
+
 .main-title {
   font-family: "Playfair Dispay", serif;
   font-weight: 500;
@@ -129,8 +135,31 @@ h1 {font-size:5rem;
    color: #e03616 !important;
  }
 
+.heading2 {
+  font-family: "Playfair Dispay", serif;
+  font-size: 32px;
+  margin: 2rem 0 8px;
+  padding: 30px 0 0;
+  vertical-align: text-bottom;
+}
+
+.heading2text {
+display: inline-block;
+vertical-align: text-middle;
 
 
+}
+
+.datebox {
+  display: inline-block;
+  width:auto;
+  background-color: white !important;
+  border: 1px solid #e03616;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
 
 .initial-overlay-text {
   font-family: "Muli", serif;
