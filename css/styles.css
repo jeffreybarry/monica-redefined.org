@@ -363,6 +363,9 @@ display: none;
 
 }
 
+.raplyrics-toprow {
+  margin: 1.5rem 1rem;
+}
 
 .songTitles1 {
   font-family: 'Playfair Display SC', serif;
@@ -456,4 +459,10 @@ padding-left: 1rem;
 
 .rowContentSpacer {
   margin-top: 3rem;
+}
+
+.darkness {
+  background-color: black !important;
+  color: #e03616;
+  font-size: 2rem;
 }
