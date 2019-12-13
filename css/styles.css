@@ -289,6 +289,12 @@ display: none;
   visibility: hidden;
 }
 
+
+.rapsongsbottomrow {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
 .rapsongs {
   background-image: url("../images/rapsongs-cassette.svg");
   background-repeat: no-repeat;
@@ -361,4 +367,9 @@ a.linkNoStyle {
 audio {
   width: 100%;
   max-width: 500px;
+}
+
+.email {
+  font-family: 'Special Elite', cursive;
+
 }
