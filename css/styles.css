@@ -453,3 +453,7 @@ padding-left: 1rem;
   line-height: 0.8;
   margin-bottom: 4rem;
 }
+
+.rowContentSpacer {
+  margin-top: 3rem;
+}
