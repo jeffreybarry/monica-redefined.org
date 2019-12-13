@@ -335,8 +335,12 @@ display: none;
 }
 
 .card {
-  width: 25rem;
-  margin-bottom: 5rem;
+/*  width: 25rem; */
+/*  margin-bottom: 5rem; */
+}
+
+.emails-separator {
+  margin-top: 3rem;
 }
 
 #lastline {
