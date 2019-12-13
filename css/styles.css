@@ -87,6 +87,12 @@ h1 {font-size:5rem;
    font-size: 6.5rem;
  }
 
+.siteheader {
+  font-family: "Playfair Dispay", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
  .redtext {
    color: #e03616 !important;
  }
@@ -345,4 +351,9 @@ display: none;
 
 #lastline {
   font-size: 3rem;
+}
+
+a.linkNoStyle {
+  color: inherit;
+  text-decoration: none;
 }
