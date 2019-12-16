@@ -170,7 +170,7 @@ vertical-align: text-middle;
   top:50%;
 }
 
-#startingPoint1, #startingPoint2, #startingPoint3, #startingPoint4, #startingPoint5, #startingPoint, .scrolldownArrow {
+#startingPoint1, #startingPoint2, #startingPoint3, #startingPoint4, #startingPoint5, #startingPoint6, .scrolldownArrow {
   /*when animation ends, count x seconds, then move animation out */
   visibility: hidden;
 
