@@ -179,6 +179,7 @@ vertical-align: text-middle;
  #startingPoint6 {
    font-size: 3rem;
    color: black;
+   left: 0 !important;
   }
 
 .scrolldownArrow {
@@ -497,3 +498,7 @@ padding-left: 1rem;
 				 -o-transform: none;
 						transform: none;
 	}
+
+#finalcredits {
+  line-height: 1.2;
+}
