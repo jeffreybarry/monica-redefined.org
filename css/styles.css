@@ -182,11 +182,9 @@ vertical-align: text-middle;
    left: 0 !important;
   }
 
-.scrolldownArrow {
 
-}
 
-#section4 {
+#sectionStarrs {
   margin-top: 250px;
   height: 100vh;
 }
@@ -200,9 +198,7 @@ vertical-align: text-middle;
   color: #e03616;
 }
 
-#section-1 {
 
- }
 
 .img-right {
   margin-left: 2rem;
@@ -371,11 +367,7 @@ display: none;
   margin: 1.5rem 1rem;
 }
 
-.songTitles1 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight: 700;
-  font-size: 1.1rem;
-}
+
 
 .songTitles2 {
   font-family: 'Playfair Display SC', serif;
@@ -384,35 +376,6 @@ display: none;
   color: #1f2041;
 }
 
-.songTitles3 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight:700;
-  font-size:1.1rem;
-  color: #3f1052;
-}
-.songTitles4 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight:400;
-  font-size:.95rem;
-}
-.songTitles5 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight:900;
-  font-size:1.25rem;
-}
-.songTitles6 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight:700;
-  font-size:1.15rem;
-}
-
-.songTitles7 {
-  font-family: 'Playfair Display SC', serif;
-  font-weight:900;
-  font-style: italic;
-  font-size:1.25rem;
-  color: #e03616;
-}
 
 .songattribution{
   font-style: italic;
