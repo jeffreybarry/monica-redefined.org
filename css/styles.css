@@ -414,6 +414,12 @@ display: none;
   color: #e03616;
 }
 
+.songattribution{
+  font-style: italic;
+  font-size: .9rem;
+  text-align: right;
+}
+
 .card {
 /*  width: 25rem; */
 /*  margin-bottom: 5rem; */
