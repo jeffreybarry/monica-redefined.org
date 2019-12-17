@@ -1,3 +1,5 @@
 .DS_Store.
 js/gsap.min.js.
 js/DrawSVGPlugin.min.js
+js/grained.js
+js/gsap.min.js
